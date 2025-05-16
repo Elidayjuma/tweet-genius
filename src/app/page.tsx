@@ -22,7 +22,7 @@ const HomePage: React.FC = () => {
 
         <CTA />
       </Container>
-      <Script defer data-domain="interviewprep.elidayjuma.com" src="https://analytics.elidayjuma.com/js/script.outbound-links.js" />
+      <Script defer data-domain="tweetgenius.elidayuma.com" src="https://analytics.elidayjuma.com/js/script.outbound-links.js" />
       <Footer />
     </>
   );
