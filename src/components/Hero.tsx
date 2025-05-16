@@ -1,8 +1,9 @@
+'use client';
 import React from 'react';
+import { Typewriter } from 'react-simple-typewriter';
 
 // import SearchForm from './SearchForm';
 import InputForm from './InputForm';
-
 import { heroDetails } from '@/data/hero';
 
 const Hero: React.FC = () => {
@@ -20,17 +21,25 @@ const Hero: React.FC = () => {
             </div>
 
             <div className="text-center w-[80vw] mx-auto">
-                <h1 className="text-4xl md:text-6xl md:leading-tight font-bold text-foreground">{heroDetails.heading}</h1>
-                <p className="mt-4 text-foreground ">{heroDetails.subheading}</p>
+                <h1 className="text-4xl md:text-6xl md:leading-tight font-bold text-foreground">
+                    <Typewriter
+                        words={[heroDetails.heading]}
+                        loop={false}
+                        cursor
+                        cursorStyle="<\>"
+                        typeSpeed={100}
+                        deleteSpeed={50}
+                        delaySpeed={7000}
+                    />
+                </h1>
+                <p className="mt-4 text-foreground">{heroDetails.subheading}</p>
                 <div className="mt-6 mb-60 sm:gap-4">
-
-                    {/* <SearchForm /> */}
                     <InputForm />
                 </div>
-
             </div>
         </section>
     );
 };
 
 export default Hero;
+

@@ -1,9 +1,9 @@
 export const siteDetails = {
-    siteName: 'InterviewPrep',
-    siteUrl: 'https://interviewprep.elidayjuma.com/',
+    siteName: 'TweetGenius',
+    siteUrl: 'https://tweetgenius.elidayjuma.com/',
     metadata: {
-        title: 'Smart, Fast Interview Prep Tool for Job Seekers and Professionals',
-        description: 'Generate interview questions and answers instantly based on any job description—prepare with confidence and precision.',
+        title: 'Smart, Fast Tweet generation Tool for x lovers',
+        description: 'Generate tweets instantly based on your prompt.',
     },
     language: 'en-us',
     locale: 'en-US',

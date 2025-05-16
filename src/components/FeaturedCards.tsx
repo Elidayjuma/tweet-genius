@@ -1,23 +1,24 @@
-import { FaQuestionCircle, FaLightbulb, FaClock } from "react-icons/fa";
+import { FaTwitter, FaBolt, FaClipboardList } from 'react-icons/fa';
 
 const FeatureCards = () => {
     const features = [
         {
-            icon: <FaQuestionCircle className="text-blue-600 text-xl" />,
-            title: "Realistic Questions",
-            description: "Get interview questions that mirror what top companies actually ask."
+            icon: <FaTwitter className="text-blue-500 text-xl" />,
+            title: "High-Impact Tweets",
+            description: "Generate sharp, engaging tweets tailored to your topic or niche in seconds."
         },
         {
-            icon: <FaLightbulb className="text-green-600 text-xl" />,
-            title: "Smart Sample Answers",
-            description: "See how to frame your responses with clarity, confidence, and impact."
+            icon: <FaBolt className="text-yellow-500 text-xl" />,
+            title: "Lightning Fast",
+            description: "No need to brainstorm—TweetGenius delivers quality content instantly."
         },
         {
-            icon: <FaClock className="text-red-600 text-xl" />,
-            title: "Prep in Minutes",
-            description: "Generate a tailored Q&A set instantly—no endless Googling needed."
+            icon: <FaClipboardList className="text-green-500 text-xl" />,
+            title: "Consistent Output",
+            description: "Stay active and consistent on social media with fresh tweets whenever you need them."
         },
     ];
+
 
 
 
